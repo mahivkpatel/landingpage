@@ -1,0 +1,67 @@
+.homeMain {
+    .container-fluid{
+        width: 95%;
+    }
+    .topContent {
+        margin: 100px 50px 75px 100px;
+        font-size: large;
+    }
+    .btnLearnMore {
+        .btn-primary {
+            color: black;
+            background-color: white;
+            border: 2px solid #ff6307;
+        }
+        :hover {
+            transform: scale(2); /* Equal to scaleX(2) scaleY(2) */
+        }
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) {
+            margin-bottom: 10px;
+        }
+    }
+    hr {
+        border: none;
+        background-color: #ff6307;
+        clear: both;
+        height: 1px;
+        margin: 20px 0 19px;
+    }
+    .rowfour{
+        #topics-list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            line-height: 30px;
+            grid-gap: 0 50px;
+        }
+        .subtitle-big {
+            font-size: 40px;
+            line-height: 55px;
+            margin-top: 70px;
+            color: #ff6307;
+        }
+    }
+    .rowfive{
+        margin-top: 50px;
+        .practice{
+            width: 580px;
+            height: 450px;
+            // @media screen and (max-width: 1620px) {
+            //     .message-trigger-container {
+            //       width: 100% !important;
+            //     }
+            //   }
+            // @media screen and (min-width: 320px)  {
+            //     width: 250px;
+            //    }
+        }
+        #time-to-learn{
+            margin-top: 25%;
+        }
+    }
+    .rowfive{
+        .prerequisites{
+            margin-bottom: 4%;
+        }
+    }
+}
