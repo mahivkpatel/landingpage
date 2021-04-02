@@ -17,7 +17,7 @@ function Cards() {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="https://i.ibb.co/JQdNDhd/download-1.jpg" className="cardImage"/>
+                    <Card.Img variant="top" src="https://i.ibb.co/JQdNDhd/download-1.jpg" className="cardImage" />
                     <Card.Body>
                         <Card.Title>JavaScript Objects and Prototypes</Card.Title>
                         <Card.Text>
@@ -26,7 +26,7 @@ function Cards() {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="https://i.ibb.co/6BgRwfx/images.jpg" className="cardImage"/>
+                    <Card.Img variant="top" src="https://i.ibb.co/6BgRwfx/images.jpg" className="cardImage" />
                     <Card.Body>
                         <Card.Title>Advanced Techniques in JavaScript and jQuery</Card.Title>
                         <Card.Text>
